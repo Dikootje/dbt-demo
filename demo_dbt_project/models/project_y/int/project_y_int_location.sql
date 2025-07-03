@@ -1,3 +1,3 @@
 select 
 * 
-from {{ source('source_a', 'location') }}
+from {{ source('source_ipinfo', 'location') }}

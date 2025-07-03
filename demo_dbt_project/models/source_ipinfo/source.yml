@@ -1,7 +1,7 @@
 version: 2
 
 sources:
-  - name: source_a
+  - name: source_ipinfo
     description: "Source A description"
     database: EXT_IPINFO_IP_GEOLOCATION_T
     schema: demo

@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: source_weather
+    description: "Source A description"
+    database: ext_global_weather
+    schema: standard_tile
+    tables:
+      - name: climatology_day
+      - name: forecast_day
+      - name: history_day

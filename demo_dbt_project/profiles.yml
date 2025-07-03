@@ -1,0 +1,11 @@
+demo_dbt_project:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      role: 'SYSADMIN'
+      warehouse: 'COMPUTE_WH'
+      database: 'DBT_DB'
+      schema: 'DEV'
+      account: ''
+      user: ''
