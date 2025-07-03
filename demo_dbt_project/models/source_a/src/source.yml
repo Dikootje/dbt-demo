@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: source_a
+    description: "Source A description"
+    database: EXT_IPINFO_IP_GEOLOCATION_T
+    schema: demo
+    tables:
+      - name: location
+        description: "Table A description"
+        identifier: location
